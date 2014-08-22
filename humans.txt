@@ -1,0 +1,7 @@
+/* HTML mockup based on Skeleton - http://www.getskeleton.com */
+/* humanstxt.org */
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery
+  Software: Coda, Git
