@@ -27,12 +27,10 @@ div.mobile {margin-top: 0.5em;}
     -webkit-border-radius: 1px;
 
     box-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
-    /*-moz-box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
-    -webkit-box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);*/
 }
 
 .microNav li{
-    /* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
+    /* Specifying the fallback color and we define CSS3 gradients for the major browsers: */
 
     background-color: #fafafa;
     background-image: -webkit-gradient(linear,left top, left bottom,from(#fafafa), color-stop(0.51, #eee));
@@ -56,7 +54,6 @@ div.mobile {margin-top: 0.5em;}
 }
 
 .microNav li:after{
-
     /* This creates a pseudo element inslide each LI */	
 
     content:'.';
@@ -126,7 +123,7 @@ div.mobile {margin-top: 0.5em;}
 .microNav li.selected:after,
 .microNav li:target:after{
     /* This property triggers the CSS3 transition */
-    opacity:1;
+    opacity:0.4;
 }
 
 .microNav:hover li.selected:after,
@@ -137,7 +134,7 @@ div.mobile {margin-top: 0.5em;}
 
 .microNav li.selected:hover:after,
 .microNav li:target:hover:after{
-    opacity:1 !important;
+    opacity:0.4 !important;
 }
 
 /* Styling the anchor elements */
@@ -201,7 +198,8 @@ div.mobile {margin-top: 0.5em;}
 
 /* media queries */
 @media only screen and (width: 768px) {
-	.mobile { margin-left: 1em; }
+	/* Fix for those with exactly 769px width */
+	.mobile { margin-left: 1em; } /* pushes the hamburger and menu invards */
 }
 @media only screen and (max-width: 768px) {
 	.logo {width: 80%; height: auto; display: block; clear: both;}
