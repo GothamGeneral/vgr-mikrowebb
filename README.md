@@ -1,7 +1,7 @@
 vgr-mikrowebb
 =============
 
-A HTML mockup of how a micro-website is supposed to look like.
+A HTML mockup of how a micro-website is supposed to look like. [Clickable prototype can be found here](http://webbfunktion.com/upload/vgrmikrowebb/).
 
 ##Screenshots##
 ###Desktop###
