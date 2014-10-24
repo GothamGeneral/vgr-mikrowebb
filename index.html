@@ -26,6 +26,14 @@
 	<script>
 	jQuery(document).ready(function($){
 	$('button').click(function() {
+		//alert($(this).width());
+		
+		if($(this).width()!="30") {
+			$(this).width("30px");
+		} else {
+			$(this).width("180px");
+		}
+		
 		$(this).toggleClass('expanded').siblings('div').slideToggle();
 	});
 	});
@@ -33,7 +41,7 @@
 	
 	<div class="container">
 		<div class="mobile">
-			<button>Meny</button>
+			<button><img src="images/hamburger.png"> Meny</button>
 			<div>
 				<a href="index.html">Hem</a>
 				<hr>
@@ -86,7 +94,7 @@
 		</div>
 		<div class="one-third column">
 			<img src="images/hi-res/IMG_1718.jpg" alt="Dirty window" class="radius">
-			<h2>Betong, glass och en vårsol</h2>
+			<h2>Betong, glas och en vårsol</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed ultricies nisi, ullamcorper consequat ante. Vivamus pretium cursus erat, ut tempus sapien varius vitae. Donec sed felis id nisi pretium tincidunt vitae eu diam. Maecenas vestibulum sit amet tellus eu egestas. Quisque rhoncus cursus lectus ut ultricies. Cras scelerisque porta pulvinar. Pellentesque non dolor tellus. Nullam vehicula est sit amet velit lacinia, ac sollicitudin nibh feugiat. Quisque pharetra magna eu blandit pellentesque. Curabitur tristique magna enim, eget varius mi vestibulum sit amet. Curabitur velit leo, varius a lectus sed, posuere auctor purus. Integer risus neque, tincidunt quis ipsum eget, ornare porta lectus. Etiam odio neque, posuere a lectus id, efficitur scelerisque massa.</p>
 		</div>
 	
