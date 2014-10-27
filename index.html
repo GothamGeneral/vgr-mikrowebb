@@ -26,14 +26,6 @@
 	<script>
 	jQuery(document).ready(function($){
 	$('button').click(function() {
-		//alert($(this).width());
-		
-		if($(this).width()!="30") {
-			$(this).width("30px");
-		} else {
-			$(this).width("180px");
-		}
-		
 		$(this).toggleClass('expanded').siblings('div').slideToggle();
 	});
 	});
