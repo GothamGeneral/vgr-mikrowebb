@@ -171,6 +171,7 @@ div.mobile {margin-top: 0.5em;}
   font-size: 1.2em;
   background: none;
   margin-bottom: 0.2em;
+  padding: 0;
 }
 .mobile button.expanded {
   background-color: transparent;
@@ -180,8 +181,12 @@ div.mobile {margin-top: 0.5em;}
 
 .mobile button img { 
 	float: left;
-	width: 30px; height: 30px; border: 1px solid #ddd; border-radius: 3px; margin-right: 0.5em;
-	}
+	width: 30px; 
+	height: 30px; 
+	border: 1px solid #ddd; 
+	border-radius: 3px; 
+	margin-right: 0.5em;
+}
 
 .mobile a {
   display: block; 
