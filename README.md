@@ -10,7 +10,7 @@ Definition of _microsite_ according to [Wikipedia](http://en.wikipedia.org/wiki/
 [A clickable prototype can be found here](http://webbfunktion.com/upload/vgrmikrowebb/).
 
 ##The web community's thoughts on microsites##
-Microsites might not be the solution you're organisation is looking for. After all, you might end up with hundreds of websites that is hard to merge or manage. Below is what others have to say about microsites.
+Microsites might not be the solution youre organisation is looking for. After all, you might end up with hundreds of websites that is hard to merge or manage. Below is what others have to say about microsites.
 
 - [Boagworld podcast: Migrating microsites](http://boagworld.com/season/9/episode/0904/)
 - [CreativeBloq: 5 brilliant microsites and why they're so effective](http://www.creativebloq.com/web-design/5-brilliant-microsites-8135477)
